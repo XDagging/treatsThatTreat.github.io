@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+.kanit {
+  font-family: 'Kanit', sans-serif;
+}
+
+
+
+.background-image {
+  /* background-image: url("./components/logo.png"); */
+  background-image: url("background_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.seperator-right {
+  width: 0;
+  height: 0;
+  border-left: 100vw solid transparent;
+  border-top: 13.9vw solid #80ffdb ;
+}
+
+.seperator {
+  margin-top: 10px !important;
+  left: 0;
+  width: 0 !important;
+  height: 0 !important;
+  border-right: 100vw solid transparent !important;
+  border-bottom: 13.9vw solid #80ffdb  !important;
+  /* margin-top: -13.9vw; */
+}
+
+.font-bubble {
+  font-family: 'Righteous', sans-serif;
+}
+
+
+.bubbly {
+  -webkit-text-stroke: 1px #000000;
+}
