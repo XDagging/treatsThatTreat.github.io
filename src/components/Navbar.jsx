@@ -30,11 +30,13 @@ function Navbar(props) {
 </div>
 
 <div className="w-full text-white p-2 mt-[20%]">
-    <div className="p-2 mx-auto w-fit h-fit bg-[#BDE0FE]"><FaBullseye size="2rem" /></div>
+    <a href="#stats"> <div className="p-2 mx-auto w-fit h-fit bg-[#BDE0FE]"><FaBullseye size="2rem" /></div></a>
+    
 </div>
 
 <div className="w-full text-white p-2 mt-[20%]">
-    <div className="p-2 mx-auto w-fit h-fit bg-[#BDE0FE]"><FaUser size="2rem" /></div>
+<a href="#mission"><div className="p-2 mx-auto w-fit h-fit bg-[#BDE0FE]"><FaUser size="2rem" /></div></a>
+    
 </div>
 
 

@@ -106,7 +106,8 @@ function Index(props) {
         </div>
 
         {/* testimonial */}
-        <div className=" bg-[#FFAFCC] w-full">
+        <div id="stats" className=" bg-[#FFAFCC] w-full">
+            <section id="stats">
             <p className="font-bubble text-4xl pl-4 py-5 text-[#f41fc5] ">Our stats: </p>
             <div className="md:h-[50vh] h-[100vh] w-full grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-y-10 justify-items-stretch items-stretch">
 
@@ -146,6 +147,7 @@ function Index(props) {
             </div> */}
 
         </div>
+        </section>
 
 
 
@@ -167,7 +169,7 @@ function Index(props) {
         <div className="seperator-right"></div>
 
 
-        <div className="">
+        <div id="mission">
             <p className="text-center font-bubble text-3xl">Our mission</p>
             <p className="w-5/6 text-center mx-auto py-5 font-bubble ">At Treats That Treat, our mission is to deliver a touch of sweetness and care to those in need within hospitals, nursery homes, and other institutions. Through the power of homemade baked goods, we aim to provide comfort, joy, and a sense of home to individuals facing challenging circumstances. Our organization is dedicated to spreading kindness and fostering connections within communities by offering delicious treats made with love and compassion. By serving our baked goods with a smile, we strive to uplift spirits, create moments of delight, and contribute to the well-being of those we serve. Treats That Treat is committed to making a positive difference one bite at a time.</p>
 
@@ -176,6 +178,8 @@ function Index(props) {
         <div className="mt-[5%]">
             <p className="kanit text-lg p-4">
                 A Hernandez Production
+                <br></br>
+                Email: treatsthatreat@gmail.com
             </p>
         </div>
 
