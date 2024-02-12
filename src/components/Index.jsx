@@ -83,13 +83,17 @@ function Index(props) {
 
     return (
         <>
-    <Navbar />
+
+        <div className="hidden lg:block">
+        <Navbar />
+        </div>
+    
 
 
-        <div className="lg:ml-[7vw] bg-[#EAE2B7]">
+        <div className="md:ml-[7vw] bg-[#EAE2B7]">
             
             
-        <div className="w-full h-[40vh] relative background-image">
+        <div className="w-full sm:h-[40vh] h-[60vh] relative background-image">
             <div className="absolute inset-0 backdrop-blur-sm"></div>
             <div className="relative z-50 w-full h-full">
             <div className="absolute left-[50%] top-[50%]" style={{transform: "translate(-50%,-50%)"}}>
@@ -104,13 +108,13 @@ function Index(props) {
         {/* testimonial */}
         <div className=" bg-[#FFAFCC] w-full">
             <p className="font-bubble text-4xl pl-4 py-5 text-[#f41fc5] ">Our stats: </p>
-            <div className="h-[50vh] w-full grid grid-cols-2 justify-items-stretch items-stretch">
+            <div className="md:h-[50vh] h-[100vh] w-full grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-y-10 justify-items-stretch items-stretch">
 
             <div className="relative h-full w-full font-extrabold">
-                <div className="absolute top-[50%] left-[50%] bg-[#BDE0FE] w-4/6 h-full rounded-lg p-2 font-bubble" style={{transform: "translate(-50%, -50%)"}}>
+                <div className="absolute top-[50%] left-[50%] bg-[#BDE0FE] md:w-4/6 w-5/6 h-full rounded-lg p-2 font-bubble" style={{transform: "translate(-50%, -50%)"}}>
                     <p className="text-white text-3xl text-center mt-4">We've handbaked over:</p>
                     <p className="text-center  text-white p-5 my-10 rounded-lg bg-[#66b7fd] w-fit mx-auto select-none text-4xl">500+</p>
-                    <p className="text-center  text-white text-5xl mt-5">C🍪🍪kies</p>
+                    <p className="text-center  text-white text-3xl md:text-5xl mt-5">C🍪🍪kies</p>
                 </div>
 
 
@@ -118,10 +122,10 @@ function Index(props) {
             </div>
             
             <div className="relative h-full w-full font-extrabold">
-                <div className="absolute top-[50%] left-[50%] bg-[#BDE0FE] w-4/6 h-full rounded-lg p-2 font-bubble" style={{transform: "translate(-50%, -50%)"}}>
+                <div className="absolute top-[50%] left-[50%] bg-[#BDE0FE] md:w-4/6 w-5/6 h-full rounded-lg p-2 font-bubble" style={{transform: "translate(-50%, -50%)"}}>
                     <p className="text-white text-3xl text-center my-4">Our Ingredients</p>
                     <div className="lg:w-3/6 w-5/6 h-3/6 border-2 mx-auto rounded-lg"><img src={require("./ingredients.png")} className="object-cover w-full h-full rounded-lg"/></div>
-                    <p className="text-white text-center text-2xl mt-8">sourced locally only using top quality, handcrafted, everytime</p>
+                    <p className="text-white text-center md:text-2xl text-lg mt-8">sourced locally only using top quality, handcrafted, everytime</p>
                     {/* <p className="text-center  text-white p-5 mt-5 rounded-lg bg-slate-500 w-fit mx-auto select-none text-4xl">500+</p>
                     <p className="text-center  text-white text-5xl mt-5">C🍪🍪kies</p> */}
                 </div>
@@ -152,7 +156,7 @@ function Index(props) {
 
         <div className="h-[50vh] bg-[#80ffdb]">
         <p className="font-bubble text-3xl text-center">Donor Recipients</p>
-            <div className="w-2/6 h-5/6 mt-5 rounded-lg mx-auto relative">
+            <div className="md:w-2/6 w-5/6 h-5/6 mt-5 rounded-lg mx-auto relative">
                 <img src={donorList[currentDonor].img} className="rounded-t-lg rounded-b-lg w-full h-full object-cover" /> 
                 <p className=" w-full bg-white p-2 absolute bottom-0 left-0 text-black font-bubble rounded-b-lg">{donorList[currentDonor].description}</p>
             </div>
