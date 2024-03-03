@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.204975ec.css",
-    "main.js": "/static/js/main.e948f6ad.js",
+    "main.js": "/static/js/main.85b74ee6.js",
     "static/media/ingredients.png": "/static/media/ingredients.be9231eb689783b03276.png",
     "static/media/carriageHill.jpg": "/static/media/carriageHill.5c5c0e47307d45eadc19.jpg",
+    "static/media/fireStation.jpg": "/static/media/fireStation.758db65c52adc410c25d.jpg",
     "static/media/NIH_Image.jpg": "/static/media/NIH_Image.5fbcf8693c83570a9d2b.jpg",
     "static/media/logo.png": "/static/media/logo.c01ca276d53754a29a1d.png",
     "static/media/background_image.png": "/static/media/background_image.74ccf7aa479e7421cc0b.png",
     "index.html": "/index.html",
     "main.204975ec.css.map": "/static/css/main.204975ec.css.map",
-    "main.e948f6ad.js.map": "/static/js/main.e948f6ad.js.map"
+    "main.85b74ee6.js.map": "/static/js/main.85b74ee6.js.map"
   },
   "entrypoints": [
     "static/css/main.204975ec.css",
-    "static/js/main.e948f6ad.js"
+    "static/js/main.85b74ee6.js"
   ]
 }
