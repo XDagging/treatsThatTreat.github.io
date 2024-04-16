@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.204975ec.css",
-    "main.js": "/static/js/main.ad364211.js",
+    "main.css": "/static/css/main.86fc806e.css",
+    "main.js": "/static/js/main.2393ff52.js",
     "static/media/ingredients.png": "/static/media/ingredients.be9231eb689783b03276.png",
     "static/media/carriageHillV2.jpg": "/static/media/carriageHillV2.a52311848d7ff8072c2f.jpg",
     "static/media/carriageHill.jpg": "/static/media/carriageHill.5c5c0e47307d45eadc19.jpg",
     "static/media/fireStation.jpg": "/static/media/fireStation.758db65c52adc410c25d.jpg",
+    "static/media/josephPic.jpg": "/static/media/josephPic.d00641ec3c41863b8dd6.jpg",
     "static/media/NIH_Image.jpg": "/static/media/NIH_Image.5fbcf8693c83570a9d2b.jpg",
+    "static/media/maxPic.jpg": "/static/media/maxPic.49d04195c36a08e9873a.jpg",
+    "static/media/sebaPic.jpg": "/static/media/sebaPic.da291a57ffb9ea29e00f.jpg",
     "static/media/logo.png": "/static/media/logo.c01ca276d53754a29a1d.png",
     "static/media/background_image.png": "/static/media/background_image.74ccf7aa479e7421cc0b.png",
     "index.html": "/index.html",
-    "main.204975ec.css.map": "/static/css/main.204975ec.css.map",
-    "main.ad364211.js.map": "/static/js/main.ad364211.js.map"
+    "main.86fc806e.css.map": "/static/css/main.86fc806e.css.map",
+    "main.2393ff52.js.map": "/static/js/main.2393ff52.js.map"
   },
   "entrypoints": [
-    "static/css/main.204975ec.css",
-    "static/js/main.ad364211.js"
+    "static/css/main.86fc806e.css",
+    "static/js/main.2393ff52.js"
   ]
 }
